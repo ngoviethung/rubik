@@ -1,0 +1,64 @@
+Công thức cho cạnh (M2):
+*Lưu ý: Viên con chạy KHÔNG cần làm công thức, nếu gặp các sticker thuộc viên này, hãy bỏ nó đi và bắt đầu từ sticker khác - phải là sticker nằm trong viên chưa có trong vòng bạn đã tạo.
+*Các sticker KHÔNG nằm trên layer M:
+b: R U R' U' M2 U R U' R'
+d: L' U' L U M2 U' L' U L
+m: x' U' R U M2 U' R' U x (x' là xoay Cube lên trên)
+e: x' U L' U' M2 U L U' x
+n: u R u' M2 u R' u' (u là xoay 2 tầng cả tầng U và tầng S)
+h: u' L' u M2 u' L u
+o: x' U' R' U M2 U' R U x
+g: x' U L U' M2 U L' U' x
+p: x' U' R2 U M2 U' R2 U x
+f: x' U L2 U' M2 U L2 U' x
+j: U R U' M2 U R' U'
+L: U' L' U M2 U' L U
+t: U R' U' M2 U R U'
+r: U' L U M2 U' L' U
+v: U R2 U' M2 U R2 U'
+x: U' L2 U M2 U' L2 U
+*Các sticker nằm trên layer M
+k, u là buffer
+a chẵn/lẻ: M2
+q chẵn/lẻ: U R U' u R u' M2 u R' u' U R' U'
+c chẵn : U2 M' U2 M'
+lẻ : M U2 M U2 - ngược lại và giống như công thức của w chẵn
+w chẵn: M U2 M U2
+lẻ : U2 M' U2 M' - ngược lại và giống như công thức của c chẵn
+=> c lẻ = w chẵn
+và ngược lại.
+i chẵn: D M' U R2 U' M U R2 U' D' M2
+s chẵn: M2 U D R2 U' M' U R2 U' M D'
+=> i lẻ = s chẵn
+và ngược lại.
+-------------------------
+**Công thức cho góc (OP):
+Y Thiếu : R U' R' U' R U R' F' R U R' U' R' F R
+a: buffer
+b: R D' ( Y ) D R'
+c: F ( Y ) F'
+d: F R' ( Y ) R F'
+e: buffer
+f: F2 ( Y ) F2
+g: F2 R' ( Y ) R F2
+h: D2 ( Y ) D2
+i: F' D ( Y ) D' F
+j: F2 D ( Y ) D' F2
+k: F D ( Y ) D' F'
+L: D ( Y ) D'
+m: R' ( Y ) R
+n: R2 ( Y ) R2
+o: R ( Y ) R'
+p: ( Y )
+q: R' F ( Y ) F' R
+r: buffer
+s: D' R ( Y ) R' D
+t: D' ( Y ) D
+u: F' ( Y ) F
+v: D' F' ( Y ) F D
+w: D2 F' ( Y ) F D2
+x: D F' ( Y ) F D'
+---------------------------
+**PARITY: Khi vòng ct xác định bị lẻ (số ct cần làm của vòng cạnh hoặc góc là 5,7,9) => Vòng CT lẻ, dính parity và cần thực hiện công thức parity sau để fix, hoàn thành cube:
+U' F2 U M2 U' F2 U
+
